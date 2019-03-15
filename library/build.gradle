@@ -5,7 +5,6 @@ apply from: 'https://raw.githubusercontent.com/jpardogo/gradle-mvn-push/master/g
 
 android {
     compileSdkVersion Integer.parseInt(ANDROID_COMPILE_SDK)
-    buildToolsVersion ANDROID_BUILD_TOOLS_VERSION
 
     defaultConfig {
         minSdkVersion Integer.parseInt(ANDROID_MIN_SDK)
